@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+	</head>	
+	<body>
+	  <form>
+	    <table
+		  border="2" cellspacing="3">
+        <tr  bgcolor="lightblue">
+		    <th>Name</th>
+			<th>Value</th>
+	    </tr>
+		<tr>
+		    <td><label>Name</label></td>
+			 <td><input type="text" name="Name"></td>
+	    </tr>
+		<tr>
+		   <td><label>sex</label></td>
+		   <td>
+		       <input type="radio" name="sex">
+               <label>Male</label><br>
+		       <input type="radio" name="sex">
+		       <label>Female</label>
+		   </td> 
+		</tr>
+		<tr>
+		    <td><label>Eye color</label></td>
+			<td>
+			    <select>
+			        <option>green</option>
+					<option>blue</option>
+					<option>red</option>
+				</select>
+			</td>
+	    </tr>
+		<tr>
+		   <td><label>Check all that apply</label></td>
+           <td>
+		      <input type="checkbox" name="Check all that apply">
+			  <label>Over 6 feet tall</label><br>
+			  <input type="checkbox" name="Check all that apply">
+		      <label>Over 200 pounds</label>
+		   </td>
+		</tr>
+		<tr>
+		    <td colspan="3"><label for="describe">Describe your athletic ability:</label></td>
+		</tr>
+		<tr>
+			<td colspan="2"><textarea
+			     id="describe" name="describe" rows="3" cols="40">
+			</textarea></td>
+		</tr>
+        <tr>
+		<td colspan="6" align="center"><input type="Enter my information" name="Enter my information" value="Enter my information"></td>
+		</tr>
+		</table>
+	   </form>
+	</body>
+</html>	
+		
+		
